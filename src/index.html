@@ -21,12 +21,17 @@
           required
         />
       </label>
-      <button type="submit" id="button-form">Search</button>
+      <button type="submit" id="button-form">
+        Search
+        <div class="loader" style="display: none"></div>
+      </button>
     </form>
-    <div class="loader" style="display: none"></div>
 
     <ul class="gallery"></ul>
-    <button class="hidden" type="submit" id="button-load">Load more</button>
+    <button class="hidden" type="submit" id="button-load">
+      Load more
+      <div class="loader loader-more" style="display: none"></div>
+    </button>
     <script type="module" src="./main.js"></script>
   </body>
 </html>

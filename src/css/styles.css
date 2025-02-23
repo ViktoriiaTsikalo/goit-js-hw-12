@@ -58,7 +58,7 @@ button {
   justify-content: center;
   border: none;
   border-radius: 8px;
-  width: 91px;
+  width: 100px;
   height: 40px;
   background: #4e75ff;
   font-family: 'Montserrat', sans-serif;
@@ -75,7 +75,7 @@ button:hover {
 }
 
 #button-load {
-  width: 125px;
+  width: 140px;
   margin: auto;
   margin-top: 32px;
 }
@@ -147,8 +147,8 @@ img {
 }
 
 .loader {
-  width: 100px;
-  height: 100px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   display: inline-block;
   border-top: 4px solid #9ceef4;
@@ -163,8 +163,8 @@ img {
   position: absolute;
   left: 0;
   top: 0;
-  width: 100px;
-  height: 100px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   border-left: 4px solid #0400ff;
   border-bottom: 4px solid transparent;

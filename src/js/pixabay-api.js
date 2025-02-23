@@ -21,10 +21,6 @@ export async function getImages(query, page) {
     }
     catch(error) {
             console.error('Error fetching images:', error);
-            iziToast.error({
-                message: 'Something went wrong. Please try again later.',
-                position: 'topRight',
-            });
             throw error;
         };
 }
